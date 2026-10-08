@@ -1,0 +1,20 @@
+{
+    "seed": 42,
+    "dataset": "MNIST",
+    "dataset_size": 5000,
+    "train_ratio": 0.7,
+    "validation_ratio": 0.1,
+    "test_ratio": 0.2,
+    "noise_type": "Gaussian",
+    "noise_sigma": 0.15,
+    "epochs": 50,
+    "batch_size": 64,
+    "learning_rate": 0.01,
+    "input_dim": 784,
+    "hidden_1": 128,
+    "hidden_2": 64,
+    "hidden_3": 32,
+    "output_dim": 784,
+    "loss": "mse",
+    "training_time_seconds": 27.644808769226074
+}

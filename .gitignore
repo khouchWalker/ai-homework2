@@ -19,25 +19,24 @@ env/
 .DS_Store
 Thumbs.db
 
-# Python cache
+# Testing/cache
 .pytest_cache/
 
-# Large model files
+# Large ML model files
 *.keras
 *.h5
 *.ckpt
 *.pth
 *.pt
 
-# TensorFlow
+# TensorFlow checkpoints
 checkpoint/
-logs/
 
 # Temporary files
 *.tmp
 *.temp
 
-# Secrets
+# Environment/secrets
 .env
 .env.*
 *.pem
